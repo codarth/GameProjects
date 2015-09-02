@@ -46,7 +46,9 @@ namespace Cogine {
 		bool m_isRunning = false;
 		float m_fps = 0.0f;
 		Window m_window;
-
+		int m_screenWidth = 1024;
+		int m_screenHeight = 768;
+		std::string m_windowName = "The Game!!";
 	};
 
 }

@@ -126,7 +126,7 @@ namespace Cogine {
 	}
 
 	bool IMainGame::initSystems() {
-		m_window.create("Default", 1024, 768, 0);
+		m_window.create(m_windowName, m_screenWidth, m_screenHeight, 0);
 		return true;
 	}
 
